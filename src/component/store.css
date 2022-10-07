@@ -1,0 +1,19 @@
+.parallex-2{
+    background-image: url(../img/parallex3.jpg);
+   
+
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.storebtn{
+    color: white; background-color: #24bca4; border-color: #fff;
+}
+.center{
+    background-color: #24bca4;
+}

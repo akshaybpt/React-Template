@@ -1,0 +1,51 @@
+.slidebtn{
+    background-color: transparent;
+    color : white;
+    border-color: white;
+    border: 1px solid;
+    padding: 16px 28px;
+}
+.slidebtn:hover {
+    transition-duration: 0.4s;
+    background-color: white;
+    color:#24bca4;
+}
+.carouselHeading{
+    color: #24bca4 !important;
+}
+.imgb{
+    position: relative;
+    float: left;
+    width: 50%;
+    z-index: 2;
+}
+.img1{
+    padding: 0 15px 0 30px;
+}
+.img1:before{
+    position:absolute;
+    content: '';
+    width: 140px;
+    height: 160px;
+    background-color: #edeffd;
+    border-radius: 3px;
+    bottom: -34px;
+    left: -4px;
+    z-index: -1;
+}
+.img2{
+    padding: 30px 30px 0 15px;
+}
+.img3{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 1px
+}
+.tittle h3{
+    color: #24bca4;
+}
+.progress-bar{
+    
+    background-color: #24bca4;
+}
