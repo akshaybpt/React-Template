@@ -30,3 +30,8 @@ color: #fff;
 .nav-item a:hover{
   color: #24bca4;
 }
+@media ( max-width:576px) {
+  .nav{
+    top: unset;
+  }
+}
