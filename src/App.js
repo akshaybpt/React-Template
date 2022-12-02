@@ -14,16 +14,16 @@ import Contact from './component/contact';
 function App() {
   return (
     <div>
-    
-     <Navigationbar />
-     <Slider />
-     <About />
-     <Team />
-     <Project />
-     <Review />
-     <Blog />
-     <Store />
-     <Contact />
+
+      <Navigationbar />
+      <Slider />
+      <About />
+      <Team />
+      <Project />
+      <Review />
+      <Blog />
+      <Store />
+      <Contact />
     </div>
   );
 }

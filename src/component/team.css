@@ -1,11 +1,18 @@
-.tittle p{
-    font-size: 18px; color: #999;    line-height: 1.5em;     margin-bottom: 70px;
+.tittle p {
+    font-size: 18px;
+    color: #999;
+    line-height: 1.5em;
+    margin-bottom: 70px;
 }
-.tittle h3{
-     font-weight: 600; color: #24bca4;
+
+.tittle h3 {
+    font-weight: 600;
+    color: #24bca4;
 }
-.tittle h2{
-    font-size: 40px; font-weight: 700;
+
+.tittle h2 {
+    font-size: 40px;
+    font-weight: 700;
 }
 
 .member {
@@ -15,24 +22,28 @@
     -moz-transition: all 0.3s;
     transition: all 0.3s;
 }
+
 .member .member-pic {
     position: relative;
     background-color: #fff;
     border-radius: 3px;
     overflow: hidden;
 }
+
 .member:hover .member-pic img {
     -webkit-transform: scale(1.12);
     -moz-transform: scale(1.12);
     transform: scale(1.12);
 }
+
 .member .member-pic img {
     width: 100%;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
 }
-.social{
+
+.social {
     position: absolute;
     top: 0;
     left: 0;
@@ -50,33 +61,36 @@
 }
 
 
-.social-link{
+.social-link {
     position: absolute;
     top: 50%;
     width: 100%;
-    transform: translateY(-50%,);
+    transform: translateY(-50%, );
     color: #fff;
 }
-.social-link .card-link{
+
+.social-link .card-link {
     padding: 5px;
     color: #fff;
 }
-.social-link .card-link:hover{
-    
+
+.social-link .card-link:hover {
+
     color: #fff;
 }
-.member:hover .social{
+
+.member:hover .social {
     opacity: 1;
     transform: translateY(0);
 }
 
 
-.memberinfo .card-link{
+.memberinfo .card-link {
     color: #444;
-   text-decoration: none;
+    text-decoration: none;
     transition: .3s;
 }
-.memberinfo .card-link:hover{
+
+.memberinfo .card-link:hover {
     color: #24bca4;
 }
-

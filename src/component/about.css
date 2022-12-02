@@ -1,71 +1,84 @@
-.cardbox{
+.cardbox {
     padding: 30px;
 }
-.cardbox .card-title{
+
+.cardbox .card-title {
     margin: 30px 0 20px;
 }
-.cardbox .card-text{
+
+.cardbox .card-text {
     margin-bottom: 20px;
 }
-.icon{
-    color:#24bca4;
+
+.icon {
+    color: #24bca4;
     font-size: 30px;
     line-height: 36px !important;
     cursor: pointer;
     border: 0;
     border-radius: 50%;
-   
+
 }
+
 .cardbox .card:hover {
     background: #24bca4;
     color: #fff;
     transform: translateY(-5px);
     transition: all 0.3s;
-    
+
 }
-.cardbox .card:hover .icon{
+
+.cardbox .card:hover .icon {
     color: #fff;
 }
-.card-link{
+
+.card-link {
     color: #444;
-   
+
     transition: .3s;
 }
-.card-link:hover{
+
+.card-link:hover {
     color: #24bca4;
 }
-.parallex{
+
+.parallex {
     background-image: url(../img/parallex1.jpg);
-   
+
 
     /* Full height */
-    height: 100%; 
-  
+    height: 100%;
+
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.colbox{
-    
+
+.colbox {
+
     color: #fff;
 }
-.parallexbox{
-   
+
+.parallexbox {
+
     padding: 10%;
 }
-.parallexbox h5{
+
+.parallexbox h5 {
     font-weight: 600;
     font-size: 45px;
     line-height: 45px;
     margin: 0 0 20px 0;
 }
-.parallexbox p{
+
+.parallexbox p {
     font-size: 14px;
     line-height: 14px;
 }
-.parallexbox i{
+
+.parallexbox i {
 
     position: relative;
     display: block;
@@ -76,8 +89,19 @@
     text-align: center;
     cursor: default;
 }
-.fadeInUp{animation:fadeInUp 1s ease backwards;}
-@keyframes fadeInUp{
-  0%{transform:translate(0px, 100px); opacity: 0;}
-  100%{transform:translate(0px, 0); opacity: 1;}
+
+.fadeInUp {
+    animation: fadeInUp 1s ease backwards;
+}
+
+@keyframes fadeInUp {
+    0% {
+        transform: translate(0px, 100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(0px, 0);
+        opacity: 1;
+    }
 }

@@ -1,40 +1,49 @@
-#Contact{
+#Contact {
     background-color: #f8f5f2;
 }
-.conatctFormBtn{
-    background-color:  #24bca4;
+
+.conatctFormBtn {
+    background-color: #24bca4;
 }
-.contactForm{
+
+.contactForm {
     background-color: rgb(190, 186, 186);
 }
-.responsive-map{
+
+.responsive-map {
     overflow: hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.responsive-map iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.company .card-link {
+    color: #fff;
+}
+
+.company .card-link {
+    text-decoration: none;
+}
+
+.company .card-link:hover {
+    color: #24bca4;
+}
+
+body {
+    font-family: 'Poppins' !important;
+}
+
+@media(max-width:576px) {
+    .company {
+        text-align: center !important;
     }
-    .responsive-map iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-    }
-    .company .card-link{
-        color: #fff;
-    }
-    .company .card-link{
-        text-decoration: none;
-    }
-    .company .card-link:hover{
-        color: #24bca4;
-    }
-    body {
-        font-family: 'Poppins'!important;
-    }
-    @media(max-width:576px)  {
-        .company{
-            text-align: center !important;
-        }
-        
-    }
+
+}
